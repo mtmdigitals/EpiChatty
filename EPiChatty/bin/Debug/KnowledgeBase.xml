@@ -1,0 +1,307 @@
+<!-- edited with XMLSpy v2006 sp1 U (http://www.altova.com) by Jeremy Blight (Redweb Lts) -->
+<knowledge_base>
+	<what_is>
+		<questions>
+			<question>
+				<keyword>EPiServer CMS</keyword>
+				<answer>EPiServer CMS is an information platform that allows you to quickly and easily publish information on a web site without the need for any specific knowledge of creating web pages.</answer>
+			</question>
+			<question>
+				<keyword>Page Templates</keyword>
+				<answer>Page templates are .aspx pages that are displayed to visitors and contain the functionality required to perform specific function.</answer>
+			</question>
+			<question>
+				<keyword>Page Types</keyword>
+				<answer>Page types are forms in which the editor can enter information in EPiServer CMS.</answer>
+			</question>
+			<question>
+				<keyword>View Mode</keyword>
+				<answer>View mode is the display vistors see</answer>
+			</question>
+			<question>
+				<keyword>Edit Mode</keyword>
+				<answer>Edit mode is the view seen by editors when they log on to create or update information on the web site.</answer>
+			</question>
+			<question>
+				<keyword>Admin Mode</keyword>
+				<answer>Admin mode is the mode in which system administrators can create and modify the settings for the web site.</answer>
+			</question>
+			<question>
+				<keyword>publish</keyword>
+				<answer>The publish button is displayed when you have access rights to publish the page and it publishes the page straight to live site.</answer>
+			</question>
+			<question>
+				<keyword>ready to publish</keyword>
+				<answer>The ready to publish is used if you dont have sufficent access rights to publish the page.</answer>
+			</question>
+			<question>
+				<keyword>light bulb symbol</keyword>
+				<answer>It means new page has been created in last 48 hours.</answer>
+			</question>
+			<question>
+				<keyword>thumbs down symbol</keyword>
+				<answer>It means the page has not been published yet.</answer>
+			</question>
+			<question>
+				<keyword>clock symbol</keyword>
+				<answer>It means the page has scheduled publishing and has not been published yet.</answer>
+			</question>
+			<question>
+				<keyword>clock with red symbol</keyword>
+				<answer>The page has scheduled publishing where time and date have passed.</answer>
+			</question>
+			<question>
+				<keyword>lock symbol</keyword>
+				<answer>It means you do not have access rights to change the page.</answer>
+			</question>
+			<question>
+				<keyword>on page editing</keyword>
+				<answer>The easiest way of editing in EPiServer CMS. Right click on the text and start editing. </answer>
+			</question>
+			<question>
+				<keyword>quick editing</keyword>
+				<answer>The second option to edit the page. Right click and just edit the page without rest of the editor.</answer>
+			</question>
+			<question>
+				<keyword>full editing</keyword>
+				<answer>This options give you the full editor mode and all the functionality.</answer>
+			</question>
+			<question>
+				<keyword>insert image shortcut</keyword>
+				<answer>CTRL + SHIFT + G</answer>
+			</question>
+			<question>
+				<keyword>insert document shortcut</keyword>
+				<answer>CTRL + SHIFT + D</answer>
+			</question>
+			<question>
+				<keyword>Insert hyperlink shortcut</keyword>
+				<answer>CTRL + SHIFT + K</answer>
+			</question>
+			<question>
+				<keyword>search in text shortcut</keyword>
+				<answer>CTRL + SHIFT + F</answer>
+			</question>
+		</questions>
+	</what_is>
+	<how_to>
+		<questions>
+			<question>
+				<keyword>Add new page</keyword>
+				<answer>right click on the current page in the editor tree and select add new, select the correct template and add new page.</answer>
+			</question>
+			<question>
+				<keyword>Edit existing information</keyword>
+				<answer>There are three different ways to edit an existing page in EPiServer CMS. They are simple edit, quick edit and full edit. Simple edit allows on page editing, quick edit will open the page type only where as full edit will open complete editor window. </answer>
+			</question>
+			<question>
+				<keyword>Save</keyword>
+				<answer>Save option is avaialble on the top of editor window. It is useful if you are working on a page for a long time.</answer>
+			</question>
+			<question>
+				<keyword>Save and view</keyword>
+				<answer>Save and option is avaialble on the top of editor window. It is useful if you want to view the page before publishing.</answer>
+			</question>
+			<question>
+				<keyword>Save and publish</keyword>
+				<answer>Save and publish is avaialble on the top of editor window. It is useful if you want to publish the current pages to the live site.</answer>
+			</question>
+			<question>
+				<keyword>copy page</keyword>
+				<answer>You can copy pages using copy button in the toolbar. Highlight the page you want to copy and click copy button on toolbar. Select the page where you want to copy and the select paste button on toolbar. You can also use right click on the selected page.</answer>
+			</question>
+			<question>
+				<keyword>paste page</keyword>
+				<answer>Select the page where  you to copy the page and then select paste button on toolbar. You can also use the right click on the selected page.</answer>
+			</question>
+			<question>
+				<keyword>delete page</keyword>
+				<answer>Select the page which you like to delete and click delete button on toolbar. You can also use the right click option on the selected page.</answer>
+			</question>
+			<question>
+				<keyword>resize an image</keyword>
+				<answer>Right click the image you want to edit and click image properties to open image editor and resize the image. </answer>
+			</question>
+			<question>
+				<keyword>crop an image</keyword>
+				<answer>Right click the image you want to edit and click image properties to open image editor and crop the image.</answer>
+			</question>
+			<question>
+				<keyword>transfrom an image</keyword>
+				<answer>Right click the image you want to edit and click image properties to open image editor and transform the image.</answer>
+			</question>
+			<question>
+				<keyword>change image dispaly size</keyword>
+				<answer>Right click the image you want to edit and click image properties to open image editor and change image display size.</answer>
+			</question>
+			<question>
+				<keyword>change style sheet for editor</keyword>
+				<answer> It is possible to configure what css-files the editor, as well as the XForm editor loads and uses. This can be configured in two ways.
+
+   1. As a property on the page.
+      This property can be either a dynamic or a standard page property. The property needs to be named UIEditorCssPaths and in the form of a comma separated list of paths to the stylesheets. Setting this in page or dynamic properties will override the correlating setting in Web.config.
+   2. As a setting in Web.config.
+      If no property is set the fallback will be to use the setting uiEditorCssPaths in web.config. This setting is also in the form of a comma separated list of paths to the stylesheets. The web.config setting will be used if no property on the page is set to point out alternative stylesheets.
+
+Sample of a comma-separated css-path list:
+
+"~/Templates/Public/Styles/Glossy/Editor.css, ~/Templates/Public/Styles/Glossy/Editor2.css". </answer>
+			</question>
+			<question>
+				<keyword>create a page template</keyword>
+				<answer>   1.  Select Add new item in the solution explorer context menu.
+   2. Select the EPiServer node.
+   3. Select the Page item and enter a name for the new template.
+   4. Click OK.
+   5. A confirmation box will prompt you whether to create a new EPiServer Page Type for the new page template or not.
+         1. If you choose to add a corresponding page type, you will be prompted with a new dialog asking for some more information about the page type.
+            After completing this, the files will be created and a new entry will be added to the page type table in the contained database.
+         2. If you select not to add a page type, the page template files will simply be created.
+</answer>
+			</question>
+			<question>
+				<keyword>create a new user control</keyword>
+				<answer>   1.  Select Add new item in the solution explorer context menu.
+   2. Select Web User Control.
+   3. Enter a name for the control to create.
+   4. Click OK.
+   5. The generated files should have the correct filename (for example: foo.ascx, foo.ascx.cs, foo.ascx.designer.cs).
+   6. The type defined in the code behind file should have a name based on the provided filename and be placed in the default namespace for the current project location.
+   7. The type declared in the codebehind file should derive from EPiServer.UserControlBase.
+
+</answer>
+			</question>
+			<question>
+				<keyword>create a custom dropdown list</keyword>
+				<answer> To create a custom DropDownList to be used in Edit Mode start with creating a Custom Property.
+
+   1. Right-click the project root node and select Add -> New Item...
+   2. Select the EPiServer Node
+   3. Choose Custom Property and type a name for the property
+   4. In the "Create Custom Property" dialog that follows, select Derived and choose Longstring as the parent type (also make sure that "Create an associated Control used for rendering the custom property" is checked)
+
+At this point we have a control ready to be manipulated. Open the control source (if we named our property CustomProp, the control would be CustomPropControl.cs)
+
+Add a DropDownList instance to your class. 
+
+C#
+System.Web.UI.WebControls.DropDownList _DropDown = new System.Web.UI.WebControls.DropDownList();
+
+This instance will be used to manipulate your controls rendering and data.
+
+To make this control be the one rendered, override the CreateEditControls method and add the DropDownList instance to the control set.
+
+C#
+public override void CreateEditControls()
+{
+    _DropDown.Items.Add("An item");
+    this.ApplyControlAttributes(_DropDown);
+    Controls.Add(_DropDown);
+}</answer>
+			</question>
+			<question>
+				<keyword>use data source controls</keyword>
+				<answer> The controls shipped with the latest EPiServer release are built and designed with ease of use in mind. There should be very little need of adding your own code behind to these classes as they are intended to be used in markup rather than coded against or inherited from.
+
+If you do need additional functionality we recommend that you inherit from the GenericDataSource control and create your own classes that suit your needs. </answer>
+			</question>
+			<question>
+				<keyword>configure multiplex membership provider</keyword>
+				<answer>In web.config , change membership's defaultProvider="WindowsMembershipProvider" to  defaultProvider="MultiplexingMembershipProvider"    
+            </answer>
+			</question>
+			<question>
+				<keyword>configure multiplex role provider</keyword>
+				<answer>In web.config , change role provider's  defaultProvider="WindowsRoleProvider" to defaultProvider="MultiplexingRoleProvider"</answer>
+			</question>
+			<question>
+				<keyword>view .episerverdata file</keyword>
+				<answer>It is possible to view the contents of an .episerverdata file by changing the file extension to .zip and opening it with a zip capable program (such as Winzip or Winrar). The files in the package can also be extracted.</answer>
+			</question>
+		</questions>
+	</how_to>
+	<generic>
+		<questions>
+			<question>
+				<keyword>how are you</keyword>
+				<answer>i am good</answer>
+			</question>
+			<question>
+				<keyword>how you doing</keyword>
+				<answer>pretty good</answer>
+			</question>
+			<question>
+				<keyword>are you having a good day</keyword>
+				<answer>yeah, its awesome</answer>
+			</question>
+			<question>
+				<keyword>how can you help me</keyword>
+				<answer>i can help you by giving answers to EPiServer based questions, using my little knowledge</answer>
+			</question>
+			<question>
+				<keyword>how old are you</keyword>
+				<answer>thats personal, i would not like to answer that</answer>
+			</question>
+			<question>
+				<keyword>where do you live</keyword>
+				<answer>why do you want to know?</answer>
+			</question>
+			<question>
+				<keyword>do you think EPiServer is cool</keyword>
+				<answer>its super cool</answer>
+			</question>
+			<question>
+				<keyword>bye</keyword>
+				<answer>bye, have a nice day :)</answer>
+			</question>
+			<question>
+				<keyword>hello</keyword>
+				<answer>hello, how can i help you</answer>
+			</question>
+			<question>
+				<keyword>hi</keyword>
+				<answer>hi there, how can i help you</answer>
+			</question>
+			<question>
+				<keyword>I am good</keyword>
+				<answer>nice to hear that</answer>
+			</question>
+			<question>
+				<keyword>who is your daddy</keyword>
+				<answer>my daddy is naveed, i am his first baby. you can contact him at naveed.ahmad@gmail.com if you need more info about me.</answer>
+			</question>
+			<question>
+				<keyword>are you ok</keyword>
+				<answer>yes, i am fine</answer>
+			</question>
+			<question>
+				<keyword>how was your day</keyword>
+				<answer>pretty good :)</answer>
+			</question>
+			<question>
+				<keyword>help</keyword>
+				<answer>start asking me questions starting with 'what is' and 'how to' like what is episerver cms</answer>
+			</question>
+			<question>
+				<keyword>are you single</keyword>
+				<answer>may be, but i am not telling you</answer>
+			</question>
+			<question>
+				<keyword>are you married</keyword>
+				<answer>hold on, you are asking wrong questions from me</answer>
+			</question>
+			<question>
+				<keyword>do you have kids</keyword>
+				<answer>i am too young for that</answer>
+			</question>
+			<question>
+				<keyword>do you love your daddy</keyword>
+				<answer>yes, i love him</answer>
+			</question>
+			<question>
+				<keyword>whats your purpose</keyword>
+				<answer>my purpose is to make episerver help for ediotrs / admins / developers / designers and general public bit more interactive and lively. My knowledge base can be extended easily and i can be customised. I am here just as a prototype.</answer>
+			</question>
+		</questions>
+	</generic>
+</knowledge_base>
